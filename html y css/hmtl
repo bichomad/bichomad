@@ -1,6 +1,45 @@
 <!DOCTYPE html>
-
+<html lang="es">
 <head>
-
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Smr</title>
+    <link rel="stylesheet" href="css1.css">
 </head>
+<body>
+    <header>
+        <h1>Train Smr</h1>
+        <img src="train.jpg" alt="Imagen del tren de lujo Train Smr">
+    </header>
+
+    <section class="viajes-section">
+        <h2 class="left-align">Viajes</h2>
+        <div class="viaje">
+            <div class="destino">
+                <h3><a href="congo.html">El Congo</a></h3>
+                <img src="congo.jpg" alt="Imagen de El Congo">
+            </div>
+            <div class="destino">
+                <h3><a href="egipto.html">Egipto</a></h3>
+                <img src="egipto.jpg" alt="Imagen de Egipto">
+            </div>
+        </div>
+    </section>
+
+    <section class="vagones-section">
+        <h2 class="right-align">Tipos de Vagones</h2>
+        <div class="vagon">
+            <h3><a href="luxury.html">Vagón de Lujo</a></h3>
+            <img src="luxury.jpg" alt="Imagen del Vagón de Lujo">
+        </div>
+        <div class="vagon">
+            <h3><a href="dining.html">Vagón Restaurante</a></h3>
+            <img src="dining.jpg" alt="Imagen del Vagón Restaurante">
+        </div>
+        <div class="vagon">
+            <h3><a href="sleeping.html">Vagón Dormitorio</a></h3>
+            <img src="sleeping.jpg" alt="Imagen del Vagón Dormitorio">
+        </div>
+    </section>
+</body>
+</html>
